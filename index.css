@@ -41,7 +41,7 @@ video {
  margin-top: 0px;
   margin-right: 10px;
     width: 300px;          /* you can change this */
-    height: 300px;         /* you can change this */
+    height: 450px;         /* you can change this */
     overflow-y: scroll;    /* makes it scroll vertically */
     border: 1px solid black;
     padding: 10px;

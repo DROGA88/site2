@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html { font-size: 1.5vw }
+body { font-size: 1rem }
+
+
+body, html {
+	background: #FFFFFF
+}
+
+
+
+
+
+
+
+
+video {
+    position: fixed;
+    top: 5;
+    left: 0;
+    margin: 1rem;
+    height: calc(100% - 1rem);
+    width: calc(100% - 1rem);
+    box-sizing: contain;
+}
+	
+
+.text {
+	padding-right: 15rem;
+	z-index: 2;
+	position: relative;
+	color: black;
+	top: 1rem;
+	bottom: center;
+	left: 5rem;
+
+}
+
+.audio {
+	padding-top: 1rem;
+	padding-left: 50rem;
+	z-index: 3;
+	position: relative;
+	color: orangered;
+	}
+
+.image {
+	padding-top: 1rem;
+	padding-left: 1rem;
+	z-index: 3;
+	position: absolute;
+	color: black;
+	}
+
+}

@@ -133,6 +133,29 @@ form {
   font-size: clamp(12px, 2vw, 28px);
 }
 
+.ticker {
+	width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+background: yellow;       /* ← orange ticker path */
+  padding: 8px 0;           /* optional: adds top/bottom spacing */
+}
+
+
+
+
+.ticker__wrap {
+	font-family: "Arial", sans-serif; 
+  display: inline-block;
+  animation: ticker-loop 60s linear infinite;
+}
+
+@keyframes ticker-loop {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(-100%); }
+}
+
+
 
 
 

@@ -122,7 +122,7 @@ form {
 .nav-a * {
   font-size: clamp(20px, 5vw, 90px);
   display: flex;
-  justify-content: center;   /* horizontal centering */
+
 
 }
 

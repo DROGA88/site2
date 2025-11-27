@@ -120,17 +120,17 @@ form {
 
 
 .nav-a * {
-  font-size: clamp(14px, 2.5vw, 29px);
+  font-size: clamp(14px, 2.5vw, 28px);
 
 
 }
 
 .nav-b * {
-  font-size: clamp(14px, 2.5vw, 29px);
+  font-size: clamp(14px, 2.5vw, 28px);
 }
 
 .nav-c * {
-  font-size: clamp(12px, 2vw, 29px);
+  font-size: clamp(12px, 2vw, 28px);
 }
 
 

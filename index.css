@@ -148,6 +148,8 @@ background: yellow;       /* ← orange ticker path */
 	font-family: "Arial", sans-serif; 
   display: inline-block;
   animation: ticker-loop 60s linear infinite;
+	 display: block; 
+	will-change: transform;
 }
 
 @keyframes ticker-loop {

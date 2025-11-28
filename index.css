@@ -139,6 +139,7 @@ form {
   white-space: nowrap;
 background: black;   
 	color: white;
+	font-size: 30px;
   padding: 8px 0;           
 }
 
@@ -148,7 +149,7 @@ background: black;
 .ticker__wrap {
 	font-family: "Arial", sans-serif; 
   display: inline-block;
-  animation: ticker-loop 120s linear infinite;
+  animation: ticker-loop 100s linear infinite;
 	 display: block; 
 	will-change: transform;
 }
@@ -158,8 +159,34 @@ background: black;
   to   { transform: translateX(-100%); }
 }
 
+.ticker-2 {
+  width: 100%;
+  overflow: hidden;
+  background: gray;
+  white-space: nowrap;
+  box-sizing: border-box;
+	
+}
 
+.ticker-2 p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll 20s linear infinite; /* adjust speed */
+  font-size: 1rem;
+font-family: "Arial", sans-serif; 
+  color: black;
+}
 
+/* Optional: different speed for the second ticker */
+.ticker-2 p {
+  animation-duration: 50s; 
+}
+
+/* Scroll animation */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
 
 
 

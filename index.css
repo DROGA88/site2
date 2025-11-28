@@ -137,7 +137,8 @@ form {
 	width: 100%;
   overflow: hidden;
   white-space: nowrap;
-background: green;       
+background: green;   
+	color: white;
   padding: 8px 0;           
 }
 

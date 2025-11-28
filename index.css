@@ -137,7 +137,7 @@ form {
 	width: 100%;
   overflow: hidden;
   white-space: nowrap;
-background: yellow;       
+background: green;       
   padding: 8px 0;           
 }
 
@@ -147,7 +147,7 @@ background: yellow;
 .ticker__wrap {
 	font-family: "Arial", sans-serif; 
   display: inline-block;
-  animation: ticker-loop 60s linear infinite;
+  animation: ticker-loop 120s linear infinite;
 	 display: block; 
 	will-change: transform;
 }

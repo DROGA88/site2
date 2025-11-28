@@ -137,8 +137,8 @@ form {
 	width: 100%;
   overflow: hidden;
   white-space: nowrap;
-background: yellow;       /* ← orange ticker path */
-  padding: 8px 0;           /* optional: adds top/bottom spacing */
+background: yellow;       
+  padding: 8px 0;           
 }
 
 

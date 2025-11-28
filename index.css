@@ -149,7 +149,7 @@ background: black;
 .ticker__wrap {
 	font-family: "Arial", sans-serif; 
   display: inline-block;
-  animation: ticker-loop 100s linear infinite;
+  animation: ticker-loop 110s linear infinite;
 	 display: block; 
 	will-change: transform;
 }
